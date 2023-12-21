@@ -1,0 +1,11 @@
+{
+    "data-root": "{{ docker_data_root }}",
+    "bip":"{{ docker_bip }}",
+    "default-address-pools": [ {{ docker_default_address_pools | to_json }} ],
+    "dns": {{ docker_dns | list | to_json }},
+    "log-driver": "journald",
+    "live-restore": true,
+    "icc": false,
+    "disable-validation": true
+}
+
