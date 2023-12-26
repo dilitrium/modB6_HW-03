@@ -1,8 +1,5 @@
 ---
 # tasks file for dnsmasq
----
-# Disable the resolved service
-# - include_tasks: disable_resolved_service.yml
 
 # Install dnsmasq
 - include_tasks: install_dnmasq.yml
