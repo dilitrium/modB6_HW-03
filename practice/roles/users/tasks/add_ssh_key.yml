@@ -2,7 +2,7 @@
 # Add pub key
 - name: Set authorized key taken from file
   authorized_key:
-    user: user
+    user: sf_user
     state: present
-    key: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
+    key: "{{ lookup('file', '/home/sf_user/.ssh/id_rsa.pub') }}"
   become: yes

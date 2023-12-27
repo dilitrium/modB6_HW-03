@@ -2,5 +2,8 @@
 # Create user
 - include_tasks: create_user.yml
 
+# Generate ssh-key for user
+- include_tasks: generate_ssh_key.yml
+
 # Add ssh-key
 - include_tasks: add_ssh_key.yml
