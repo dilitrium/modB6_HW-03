@@ -1,9 +1,9 @@
 galaxy_info:
-  author: Alexey Babkin
+  author: dilitrium
   description: Test role nginx
   company: SkillFactory
   license: Full Free
-  min_ansible_version: 2.1
+  min_ansible_version: 1.1
   platforms:
   - name: Ubuntu
     versions:

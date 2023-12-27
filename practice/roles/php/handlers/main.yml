@@ -1,2 +1,7 @@
 ---
-# handlers file for php
+# Reload php
+- name: Reload php-fpm
+  service:
+    name: php-fpm
+    state: reloaded
+  become: yes
